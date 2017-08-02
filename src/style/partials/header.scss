@@ -1,0 +1,59 @@
+.header-box {
+    position : relative; line-height : 4em; 
+	
+	.top-line {
+	    background : #000;
+		.logo {
+			width : 25%; height : 56px; text-align : left;
+			img { display : inline-block; vertical-align : middle; width : 24px; margin : 0 0 0 30px; }
+		}
+	}
+	
+	.menu-box {
+	    width : 50%; text-align : center;
+		.top-menu {
+		    li {
+			    line-height : 3.2em;
+			    a { display : inline-block; vertical-align : middle; padding : 0 30px; font-size : 1.6em; text-transform : uppercase; border-bottom : 2px solid transparent; }
+				a:hover { border-color : $hover-color; }
+			}
+		}
+	}
+	
+	.user-tools {
+	    width : 25%; text-align : right;
+	}
+	
+	.links {
+	    display : inline-block; margin : 0 30px 0 0;
+	    .admin-link {
+		    position : relative; display : inline-block; vertical-align : baseline; width : 1.4em; height : 1.4em; text-align : center; margin : 0 5px;
+		    :before { font-size : 1.2em; }
+		    div {
+			    position : absolute; width : 2em; height : 2em; right : -0.5em; top : -0.5em; background : #afa400; border-radius : 50%; font-size : 0.5em;
+			    span { position : absolute; left : 50%; top : 50%; transform : translate(-50%, -50%); }
+			}
+		}
+	}
+	
+    .tooltip-box { 
+	    line-height : 4em; height : 4em; overflow-y : hidden;
+		.title { 
+			float : left; width : 25%; text-align : right; text-transform : uppercase; 
+			span { margin : 0 0 0 100px; font-size : 2em; font-weight : 700; color : #000; }
+		}
+		.tools_menu_box { 
+			width : 42.5%; float : right; background : #542e91;
+			ul { margin : 0 0 0 1.5em; }
+			li { 
+				display : inline-block; line-height : 3.2; margin : 0 0.5em;
+				a {
+					padding : 0 0 0.2rem 0; font-size : 1.6em; border-bottom : 4px solid transparent; color : #000;
+				}
+			}
+			li:hover a { color : #fff; border-color : #fff; }				
+		}
+	}
+	
+	
+}

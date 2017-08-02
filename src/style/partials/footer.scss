@@ -1,0 +1,29 @@
+.footer-container { background : #212123; padding : 1em 0; }
+.footer-box { 
+    border-bottom : 1px solid #fff; 
+    .footer-menu_box {  }
+    .footer-items { padding : 0 0 5.5rem 0; }
+    .footer-menu li { 
+	    line-height : 3em; 
+        a { font-family : 'RefrigeratorDeluxe-Bold';font-size : 1.3em; font-weight : 400; text-transform : uppercase; }
+		}
+    .social { 
+	    float : right; text-align : right; 
+        .title { font-size : 1.2em; font-weight : 400; text-transform : uppercase; margin : 0.5em 0 1em 0; }
+        .links a { display : inline-block; margin : 0 0 0 1.4em; }
+        .links a:before { font-size : 1.6em; }
+	    }
+	}
+
+	.footer-cp {
+		> div { line-height : 2em; }
+		.copyright { }
+		.terms {
+			float : right;
+			a {
+				 position : relative; line-height : 1em; margin : 0 1em;
+			}
+			a:after { position : absolute; right : -1em; top : 25%; content : ""; width : 1px; height : 70%; background : #fff; }
+			a:last-child:after { content : none; }
+		}
+	}

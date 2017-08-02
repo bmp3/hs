@@ -1,0 +1,86 @@
+.w-box { max-width : 1440px; margin : 0 auto; }
+.w-row { width : 100%; }
+.w-box:after, .w-row:after, .clearfix:after {  content: ""; display: table; clear: both; }
+.w-col { float : left; width : auto; }
+.hz { display : inline-block; margin-right : -4px; }
+.inline-center:before { display: inline-block; height: 100%; vertical-align: middle; content : ""; }
+.w-col.right { float : right; }
+.wide-block { width: 100vw; margin-left: calc(-50vw + 50%); }
+.h-block { height : 100vh; }
+
+
+@media screen and (max-width : 1920px) {
+	.w-box { max-width : 1170px; }
+	.lg, .lg-12 { width : 100% }
+	.lg-9 { width : 75%; }
+	.lg-8 { width : 66.6%; }
+	.lg-6 { width : 50%; }
+	.lg-4 { width : 33.3%; }
+	.lg-3 { width : 25%; }
+}
+
+
+
+@media screen and (max-width: 1120px) {
+	
+	.w-box { max-width : 750px; }
+	.md, .md-12 { width : 100% }
+	.md-9 { width : 75%; }
+	.md-8 { width : 66.6%; }
+	.md-6 { width : 50%; }
+	.md-4 { width : 33.3%; }
+	.md-3 { width : 25%; }	
+	
+	.header-box {
+	    .logo { float : none; }
+	    .menu-box { width : 100%; float : none; }
+	    .user-tools { position : absolute; width : 75%; right : 0; top : 0; }
+	}
+	
+}
+
+
+@media screen and (max-width: 992px) {
+
+	.w-box { max-width : 750px; }
+	.sm, .sm-12 { width : 100% }
+	.sm-9 { width : 75%; }
+	.sm-8 { width : 66.6%; }
+	.sm-6 { width : 50%; }
+	.sm-4 { width : 33.3%; }
+	.sm-3 { width : 25%; }
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	.w-box { max-width : 95%; }
+	.xs, .xs-12 { width : 100% }
+	.xs-9 { width : 75%; }
+	.xs-8 { width : 66.6%; }
+	.xs-6 { width : 50%; }
+	.xs-4 { width : 33.3%; }
+	.xs-3 { width : 25%; }	
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .footer-box .footer-menu { text-align : center; }
+    .footer-box .footer-menu li { display : inline-block; margin : 0 0.5em 0 0; }
+    .footer-box .social { float : none; text-align : center; }
+	.footer-box .social a:first-child { margin : 0; }
+	.footer-cp > div { display : block; float : none !important; text-align : center; }
+}
+
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (max-width: 1350px)
+  and (-webkit-device-pixel-ratio: 3) {	
+  
+ }
